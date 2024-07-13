@@ -45,7 +45,10 @@ function Navbar() {
         <a href="/course">Course</a>
       </li>
       <li>
-        <a>Contact</a>
+        <a href="/Contact">Contact</a>
+      </li>
+      <li>
+        <a href="/News">News</a>
       </li>
       <li>
         <a>About</a>
@@ -91,7 +94,7 @@ function Navbar() {
                 {navItems}
               </ul>
             </div>
-            <a className=" text-2xl font-bold cursor-pointer">bookStore</a>
+            <a className=" text-2xl font-bold cursor-pointer">Onlinebook</a>
           </div>
           <div className="navbar-end space-x-3">
             <div className="navbar-center hidden lg:flex">
@@ -119,7 +122,7 @@ function Navbar() {
               </label>
             </div>
             <label className="swap swap-rotate">
-              {/* this hidden checkbox controls the state */}
+            
               <input
                 type="checkbox"
                 className="theme-controller"

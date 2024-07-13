@@ -1,0 +1,137 @@
+
+{
+"status": "ok",
+"totalResults": 10,
+"articles": [
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "China hits back at Nato over Russia accusations",
+"description": "The West has called Beijing a \"decisive enabler\" of Russia's war on Ukraine.",
+"url": "https://www.bbc.co.uk/news/articles/cxx24850k8yo",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9f88/live/8f585da0-4002-11ef-8b06-b50f10697f57.jpg",
+"publishedAt": "2024-07-13T01:07:10.2396188Z",
+"content": "On Thursday, while speaking to the Netherlands' new foreign minister Caspar Veldkamp, Mr Wang said \"China absolutely does not accept\" all these accusations and insisted that they have \"always been a … [+2110 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "More human remains found in London as Bristol suitcase suspect named",
+"description": "Police say the remains discovered in a west London flat and Bristol belong to the same two men.",
+"url": "https://www.bbc.co.uk/news/articles/c3gr49e5908o",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/0cc8/live/d2de2800-40a9-11ef-ab5d-4170bbd48817.png",
+"publishedAt": "2024-07-13T00:37:07.6614047Z",
+"content": "Human remains have been found in west London by police investigating the discovery of body parts in suitcases in Bristol.\r\nOfficers believe the remains found in a flat on Scotts Road, Shepherd's Bush… [+814 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Biden is teetering. Trump’s plan? Let it happen.",
+"description": "Strategists say Trump is showing uncharacteristic discipline, and that it's working.",
+"url": "https://www.bbc.co.uk/news/articles/cd17yd3jq4ro",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/b1f9/live/b1092ad0-4064-11ef-b74c-bb483a802c97.jpg",
+"publishedAt": "2024-07-12T23:52:11.7711918Z",
+"content": "Trump, 78, has not gone entirely underground. Since Mr Biden's poor debate performance in late June, Trump has given a handful of radio interviews, appeared at rallies in Virginia and Florida, and ke… [+1401 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "How America's allies are trying to 'Trump-proof' Nato's future",
+"description": "The prospect of a second term for Donald Trump has loomed over the Nato summit in Washington.",
+"url": "https://www.bbc.co.uk/news/articles/c3gr90jnxjvo",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/151b/live/91bafcc0-4065-11ef-96a8-e710c6bfc866.jpg",
+"publishedAt": "2024-07-12T23:22:12.8186264Z",
+"content": "He also highlighted the $60bn military assistance package for Ukraine finally passed in April in a bipartisan effort following nine months of paralysis, after allies of Trump blocked passage of the b… [+2509 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Alec Baldwin's manslaughter case dismissed in Rust shooting",
+"description": "The dismissal happened just days into the actor's involuntary manslaughter trial.",
+"url": "https://www.bbc.co.uk/news/articles/cx8290qn0n5o",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/b548/live/2a1ccba0-407b-11ef-9f4e-277f7020fa3f.jpg",
+"publishedAt": "2024-07-12T22:37:18.0365858Z",
+"content": "Alec Baldwin broke into tears as a New Mexico judge dismissed manslaughter charges over the shooting death of Halyna Hutchins on the set of his film Rust.\r\nThe dismissal came three days into Baldwin'… [+2167 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "In photos: Bieber, Rihanna, Gates and Blair at mega India wedding",
+"description": "Photos from the months-long wedding celebrations of Anant Ambani, son of Asia richest man Mukesh Ambani.",
+"url": "https://www.bbc.co.uk/news/articles/c4ng8z8mj12o",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/19b5/live/d8a62c90-4038-11ef-b74c-bb483a802c97.png",
+"publishedAt": "2024-07-12T22:22:14.5055407Z",
+"content": "Celebrities from across the globe are arriving in Mumbai for the wedding of the youngest son of Asia's richest man Mukesh Ambani. \r\nAnant Ambani is expected to tie the knot with Radhika Merchant, dau… [+683 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Many Democrats are sticking with Biden. This is why.",
+"description": "Scores of Democrats have publicly backed Biden - citing his record, his principles and his 2020 win against Trump.",
+"url": "https://www.bbc.co.uk/news/articles/cw4y3xd4r1po",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9401/live/4d46d420-4055-11ef-9909-c12337993a63.jpg",
+"publishedAt": "2024-07-12T20:37:14.0058856Z",
+"content": "Experts say these politicians have a host of reasons for their support, including Mr Biden's record in office, his 2020 victory against Trump and the gamble of putting in a new candidate so close to … [+1884 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Poland considers downing Russian missiles over Ukraine",
+"description": "Foreign Minister Sikorski says of the proposal, included in a defence agreement, \"at this stage this is an idea\".",
+"url": "https://www.bbc.co.uk/news/articles/cn09234xxn1o",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7247/live/1a72e370-406b-11ef-a0c6-051e9798b019.png",
+"publishedAt": "2024-07-12T17:52:21.6624384Z",
+"content": "Polish Foreign Minister Radoslaw Sikorski has said Warsaw is considering a proposal from Kyiv to shoot down Russian missiles heading towards Polish territory while they are still in Ukrainian airspac… [+2844 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Ukraine war: German shock at reported Russian assassination plot",
+"description": "German political figures respond to a reported plot against Rheinmetall chief Armin Papperger.",
+"url": "https://www.bbc.co.uk/news/articles/c1wej84e9l7o",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/edfc/live/5e7e7950-4046-11ef-9e1c-3b4a473456a6.jpg",
+"publishedAt": "2024-07-12T13:07:18.0699907Z",
+"content": "Last April, Mr Papperger's garden house was set alight at Hermannsburg in northern Germany, although there has been no evidence of a Russian link.\r\nThe fire was quickly brought under control and a ra… [+1023 chars]"
+},
+{
+"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Ambani wedding: India tycoon’s son to marry after months of festivities",
+"description": "Anant Ambani, son of Asia's richest man Mukesh Ambani, will tie the knot with Radhika Merchant in Mumbai.",
+"url": "https://www.bbc.co.uk/news/articles/cq5x22w0xl0o",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/b6ad/live/c08ede50-3f65-11ef-b6a8-b5e67d88a2ed.jpg",
+"publishedAt": "2024-07-11T21:52:11.6143885Z",
+"content": "After months of lavish celebrations spread across the world, the wedding ceremony of the son of Asia's richest man is set to take place on Friday.\r\nAnant Ambani, son of Reliance Industries chairman M… [+1066 chars]"
+}
+]
+}

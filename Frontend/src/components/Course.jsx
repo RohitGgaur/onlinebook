@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Cards from "./Cards";
 import axios from "axios";
 import { Link } from "react-router-dom";
+// import list from "../../public/list.json"
 function Course() {
   const [book, setBook] = useState([]);
   useEffect(() => {
@@ -16,6 +17,7 @@ function Course() {
     };
     getBook();
   }, []);
+
   return (
     <>
       <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">

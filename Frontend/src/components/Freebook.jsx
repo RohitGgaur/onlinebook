@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+// import list from "../../public/list.json"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -14,7 +14,7 @@ function Freebook() {
       try {
         const res = await axios.get("http://localhost:4001/book");
 
-        const data = res.data.filter((data) => data.category === "Free");
+        const data = res.data.filter((data) => data.category === "free");
         console.log(data);
         setBook(data);
       } catch (error) {
@@ -23,6 +23,7 @@ function Freebook() {
     };
     getBook();
   }, []);
+
 
   var settings = {
     dots: true,
@@ -72,7 +73,7 @@ function Freebook() {
 
         <div>
           <Slider {...settings}>
-            {book.map((item) => (
+            {book.map((item) => (              
               <Cards item={item} key={item.id} />
             ))}
           </Slider>
@@ -82,3 +83,10 @@ function Freebook() {
   );
 }
 export default Freebook;
+
+
+
+
+
+
+

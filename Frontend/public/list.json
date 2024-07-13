@@ -1,0 +1,90 @@
+[
+    {
+        "id":1,
+        "name":"Story book",
+        "price":0,
+        "category":"free",
+        "image":"https://img.freepik.com/free-vector/text-books-library-isolated-icon_24877-83372.jpg?ga=GA1.1.531661702.1720760876&semt=sph",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+    },
+    {
+        "id":2,
+        "name":"Comady book",
+        "price":20,
+        "category":"Entainment",
+        "image":"https://img.freepik.com/free-vector/text-books-library-isolated-icon_24877-83372.jpg?ga=GA1.1.531661702.1720760876&semt=sph",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+    },
+    {
+        "id":3,
+        "name":"Comady book",
+        "price":20,
+        "category":"Entainment",
+        "image":"https://img.freepik.com/free-vector/text-books-library-isolated-icon_24877-83372.jpg?ga=GA1.1.531661702.1720760876&semt=sph",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+    },
+    {
+        "id":4,
+        "name":"Sport book",
+        "price":50,
+        "category":"Sport",
+        "image":"https://img.freepik.com/free-vector/text-books-library-isolated-icon_24877-83372.jpg?ga=GA1.1.531661702.1720760876&semt=sph",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+    },
+    {
+        "id":5,
+        "name":"Sport book",
+        "price":50,
+        "category":"Sport",
+        "image":"https://img.freepik.com/free-vector/text-books-library-isolated-icon_24877-83372.jpg?ga=GA1.1.531661702.1720760876&semt=sph",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+    },
+    {
+        "id":6,
+        "name":"Story book",
+        "price":0,
+        "category":"free",
+        "image":"https://img.freepik.com/free-vector/text-books-library-isolated-icon_24877-83372.jpg?ga=GA1.1.531661702.1720760876&semt=sph",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+    },
+    {
+        "id":7,
+        "name":"Story book",
+        "price":0,
+        "category":"free",
+        "image":"https://img.freepik.com/free-vector/text-books-library-isolated-icon_24877-83372.jpg?ga=GA1.1.531661702.1720760876&semt=sph",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+    },
+    {
+        "id":8,
+        "name":"Love Story",
+        "price":100,
+        "category":"Romantic",
+        "image":"https://img.freepik.com/free-vector/text-books-library-isolated-icon_24877-83372.jpg?ga=GA1.1.531661702.1720760876&semt=sph",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+    },
+    {
+        "id":9,
+        "name":"Love Story",
+        "price":100,
+        "category":"Romantic",
+        "image":"https://img.freepik.com/free-vector/text-books-library-isolated-icon_24877-83372.jpg?ga=GA1.1.531661702.1720760876&semt=sph",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+    },
+    {
+        "id":10,
+        "name":"Story book",
+        "price":0,
+        "category":"free",
+        "image":"https://img.freepik.com/free-vector/text-books-library-isolated-icon_24877-83372.jpg?ga=GA1.1.531661702.1720760876&semt=sph",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+    },
+    {
+        "id":11,
+        "name":"Story book",
+        "price":0,
+        "category":"free",
+        "image":"https://img.freepik.com/free-vector/text-books-library-isolated-icon_24877-83372.jpg?ga=GA1.1.531661702.1720760876&semt=sph",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+    }
+]
