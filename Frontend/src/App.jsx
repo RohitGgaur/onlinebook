@@ -17,11 +17,11 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route
           path="/course"
-          element={authUser ? <Courses /> : <Navigate to="/signup" />}
+          element={authUser ? <Courses /> : <Navigate to="/signup" state={{ from: { pathname: "/course" } }} />}
         />
          <Route
           path="/contact"
-          element={authUser ? <Contacts /> : <Navigate to="/signup" />}
+          element={authUser ? <Contacts /> : <Navigate to="/signup" state={{ from: { pathname: "/contact" } }} />}
         />
        <Route path="/news" element={<News />} />
         <Route path="/signup" element={<Signup />} />

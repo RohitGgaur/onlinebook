@@ -6,32 +6,48 @@ import cors from "cors";
 import bookRoute from "./route/book.route.js";
 import userRoute from "./route/user.route.js";
 
-const app = express();
+dotenv.config(); // load env FIRST
 
+const app = express();
 app.use(cors());
 app.use(express.json());
 
-dotenv.config();
+const PORT = process.env.PORT || 4001;
+const URI = process.env.MongoDBURI; // must match .env key exactly
 
-const PORT = process.env.PORT;
-const URI = process.env.MongoDBURI;
-
-// connect to mongoDB
-try {
-    mongoose.connect(URI, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-    });
-    console.log("Connected to mongoDB");
-} catch (error) {
-    console.log("Error: ", error);
+if (!URI) {
+  console.error("❌ MongoDB URI missing. Set MongoDBURI in .env");
+  process.exit(1);
 }
 
+// Optional: cleaner Mongoose logs
+mongoose.set("strictQuery", true);
 
-// defining routes
-app.use("/book", bookRoute);
-app.use("/user", userRoute);
+(async () => {
+  try {
+    // Log without exposing creds
+    console.log(
+      "Connecting to:",
+      URI.replace(/(mongodb\+srv:\/\/)([^:]+):([^@]+)@/, "$1<user>:<redacted>@")
+    );
 
-app.listen(PORT, () => {
-    console.log(`Server is listening on port ${PORT}`);
-});
+    await mongoose.connect(URI, {
+      // modern driver – no need for useNewUrlParser/useUnifiedTopology
+      serverSelectionTimeoutMS: 8000,
+      appName: "onlinebook-backend",
+    });
+
+    console.log("✅ Connected to mongoDB");
+
+    // Routes after DB is ready (optional but safer)
+    app.use("/book", bookRoute);
+    app.use("/user", userRoute);
+
+    app.listen(PORT, () => {
+      console.log(`Server is listening on port ${PORT}`);
+    });
+  } catch (err) {
+    console.error("❌ MongoDB connection error:", err.message);
+    process.exit(1);
+  }
+})();

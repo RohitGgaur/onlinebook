@@ -111,9 +111,12 @@ function Signup() {
                   Have account?{" "}
                   <button
                     className="underline text-blue-500 cursor-pointer"
-                    onClick={() =>
-                      document.getElementById("my_modal_3").showModal()
-                    }
+                    onClick={() => {
+                      navigate("/");
+                      setTimeout(() => {
+                        document.getElementById("my_modal_3").showModal();
+                      }, 100);
+                    }}
                   >
                     Login
                   </button>{" "}
